@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 
@@ -44,7 +48,7 @@ body {
     font-style: unset;
 }
 .info {
-    width: 60%;
+    flex: 1;
     padding: 20px;
     margin-left: 30px;
 }
@@ -79,7 +83,7 @@ a:hover {
     color: blueviolet;
 }
 /*Este selector es para cuando tienes presionado el link*/
-a:visited {
+a:active {
     color: rgb(215, 40, 40);
 }
 
@@ -106,4 +110,44 @@ tr:hover {
     background-color: rgb(105, 121, 143);
     text-align: center;
     padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    padding: 0;
+  }
+
+  .infoborder {
+    padding: 10px;
+  }
+
+  .infoborder h1 {
+    font-size: 1.4rem;
+  }
+
+  .infoborder h3 {
+    font-size: 1rem;
+  }
+
+  .contenido {
+    padding: 5px;
+  }
+
+  .info {
+    padding: 15px;
+  }
+
+  .barral {
+    padding: 15px;
+  }
+
+  table, th, td {
+    font-size: 0.85rem;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
 }
