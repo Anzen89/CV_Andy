@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.infoborder {
+    background-color: rgb(92, 111, 136);
+    padding: 2px 4px;
+    /* position: fixed; */
+}
+
+.infoborder h1 {
+    text-align: right;
+    padding: 1px 100px 1px;
+    font-family: "BBH Bartle", 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.infoborder h3 {
+    text-align: right;
+    padding: 1px 100px 1px;
+
+}
+
+.acercademi h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style: unset;
+}
+
+.contenido {
+    /*display es para poder darle maquetacion*/
+    display: flex;
+    background-color: rgb(217, 228, 237);
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.contenido h2, h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style: unset;
+}
+.info {
+    width: 60%;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+
+.barral {
+    width: 300px;
+    background-color: rgb(188, 195, 195);
+    padding: 50px;
+    margin-right: 100px;
+}
+.barral img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.a {
+    width: 7%;
+    background-color: rgb(92, 111, 136);
+}
+
+/*Este selector es para cuando el link aun no esta visitado*/
+a:link {
+    color:blue;
+}
+/*Este selector es para cuando el link ya fue visitado*/
+a:visited {
+    color: rgb(90, 83, 225);
+}
+/*Este selector es para cuando estas pasando por encima del link*/
+a:hover {
+    color: blueviolet;
+}
+/*Este selector es para cuando tienes presionado el link*/
+a:visited {
+    color: rgb(215, 40, 40);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px rgb(184, 176, 176);
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(116, 130, 148);
+}
+
+tr:hover {
+    background-color: rgb(116, 130, 148);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(105, 121, 143);
+    text-align: center;
+    padding: 20px;
+}
